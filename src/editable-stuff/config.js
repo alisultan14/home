@@ -6,30 +6,20 @@ const navBar = {
 // Main Body SECTION
 const mainBody = {
   gradientColors: "#4484ce, #1ad7c0, #ff9b11, #9b59b6, #ff7f7f, #ecf0f1",
-  firstName: "Hashir",
+  firstName: "Ali Sultan",
   middleName: "",
-  lastName: "Shoaib",
-  message: " Passionate about changing the world with technology. ",
+  lastName: "Sikandar",
+  message: " Software Engineer| Web Developer | MMA and Soccer Enthusiast",
   icons: [
     {
       image: "fa-github",
-      url: "https://github.com/hashirshoaeb",
+      url: "https://github.com/alisultan14",
     },
-    {
-      image: "fa-facebook",
-      url: "https://www.facebook.com/hashirshoaeb",
-    },
-    {
-      image: "fa-instagram",
-      url: "https://www.instagram.com/hashirshoaeb/",
-    },
+    
+   
     {
       image: "fa-linkedin",
-      url: "https://www.linkedin.com/in/hashirshoaeb/",
-    },
-    {
-      image: "fa-twitter",
-      url: "https://www.twitter.com/hashirshoaeb/",
+      url: "https://www.linkedin.com/in/alisultansikandar/",
     },
   ],
 };
@@ -54,8 +44,8 @@ const about = {
   imageLink: require("../editable-stuff/hashirshoaeb.png"),
   imageSize: 375,
   message:
-    "My name is Hashir Shoaib. I’m a graduate of 2020 from National University of Sciences and Technology at Islamabad with a degree in Computer Engineering. I'm most passionate about giving back to the community, and my goal is to pursue this passion within the field of software engineering. In my free time I like working on open source projects.",
-  resume: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
+    "Hello Everyone! I am Ali Sultan Sikandar, a rising junior at Lafayette College majoring in Computer Science and minoring in Economics. I am originally from Lahore Pakistan and I will be starting my fifth semester this fall. I have a knack for technology. My interests are mostly related to AI and Full stack development but I am open to immerse myself into new and upcoming tools and technoligies as well. Outside of professional landscape, I am a huge MMA and boxing fan. My weekends are usually incomplete without watching the UFC and English Premier League.",
+  resume: "https://www.docdroid.net/sNZZ8ME/resume-ali-2021-v33-1-pdf",
 };
 
 // PROJECTS SECTION
@@ -65,10 +55,10 @@ const about = {
 //      i.e ["repository-1", "repo-2"]
 const repos = {
   show: true,
-  heading: "Recent Projects",
-  gitHubUsername: "hashirshoaeb", //i.e."johnDoe12Gh"
-  reposLength: 4,
-  specificRepos: [],
+  heading: "Projects",
+  gitHubUsername: "alisultan14", //i.e."johnDoe12Gh"
+  reposLength: 0,
+  specificRepos: ["Pet_Matchmaker","Virtual-Maze-Analyzer","Soccer_Shot_Map","Space_Escape_Motion-Control-Game","Book_Index_Generator","Sorting_Algorithms_Time_Comparison","Human-Reaction-Timer","Coffee-Shop-Simulator"]
 };
 
 // Leadership SECTION
@@ -100,24 +90,21 @@ const skills = {
   show: true,
   heading: "Skills",
   hardSkills: [
-    { name: "Python", value: 90 },
-    { name: "SQL", value: 75 },
-    { name: "Data Structures", value: 85 },
-    { name: "C/C++", value: 65 },
-    { name: "JavaScript", value: 90 },
-    { name: "React", value: 65 },
-    { name: "HTML/CSS", value: 55 },
-    { name: "C#", value: 80 },
+    { name: "Python", value: 100 },
+    { name: "SQL", value: 100 },
+    { name: "Java", value: 100 },
+    { name: "React", value: 100 },
+    { name: "JavaScript", value: 100 },
+    { name: "HTML/CSS", value: 100 },
+    { name: "C++", value: 100 },
+    { name: "C", value: 100},
+
   ],
   softSkills: [
-    { name: "Goal-Oriented", value: 80 },
-    { name: "Collaboration", value: 90 },
-    { name: "Positivity", value: 75 },
-    { name: "Adaptability", value: 85 },
-    { name: "Problem Solving", value: 75 },
-    { name: "Empathy", value: 90 },
-    { name: "Organization", value: 70 },
-    { name: "Creativity", value: 90 },
+    { name: "Microsoft Excel", value: 100 },
+    { name: "ArcGIS", value: 100 },
+    { name: "SketchUp", value: 100 },
+    { name: "AutoCAD", value: 100 },
   ],
 };
 
@@ -126,23 +113,38 @@ const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message:
-    "I'm currently looking for full-time Software Engineering or Machine Learning opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
-  email: "hashirshoaeb@gmail.com",
+    "I'm currently looking for Summer 2022 Software Engineering Internships! If you want to get in contact, please feel free to reach out to me at my LinkedIn or my email",
+  email: "sikandaa@lafayette.edu",
 };
 
 const experiences = {
-  show: false,
+  show: true,
   heading: "Experiences",
   data: [
     {
-      role: 'Software Engineer',// Here Add Company Name
-      companylogo: require('../assets/img/dell.png'),
-      date: 'June 2018 – Present',
+      role: 'Software Engineering Intern, NeurLeap Corporation',// Here Add Company Name
+      companylogo: require('../assets/img/neuro.png'),
+      date: 'Feb 2021 – Present',
     },
     {
-      role: 'Front-End Developer',
-      companylogo: require('../assets/img/boeing.png'),
-      date: 'May 2017 – May 2018',
+      role: 'Machine Learning Researcher, Computer Science Department, Lafayette College',// Here Add Company Name
+      companylogo: require('../assets/img/laf.png'),
+      date: 'Jun 2021 – Present',
+    },
+    {
+      role: 'EXCEL Research Scholar, Neuro Science Department, Lafayette College',// Here Add Company Name
+      companylogo: require('../assets/img/laf.png'),
+      date: 'Jun 2020 – Jan 2021',
+    },
+    {
+      role: 'Digital Humanities Scholar, Lafayette College',// Here Add Company Name
+      companylogo: require('../assets/img/laf.png'),
+      date: 'Jun 2021 – July 2021',
+    },
+    {
+      role: 'Web Development Extern, Betterment',// Here Add Company Name
+      companylogo: require('../assets/img/better.png'),
+      date: 'Dec 2020 – Jan 2021',
     },
   ]
 }
